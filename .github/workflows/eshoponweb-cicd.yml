@@ -9,7 +9,7 @@ env:
   LOCATION: southcentral
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 5c315440-bdb2-4ecb-b7ac-468d487fbe22
-  WEBAPP-NAME: eshoponweb-webapp49976510az ad sp create-for-rbac --name GH-Action-eshoponweb49976510 --role contributor --scopes /subscriptions/SUBSCRIPTION-ID/resourceGroups/RESOURCE-GROUP --sdk-authc
+  WEBAPP-NAME: eshoponweb-webapp49976510az ad sp create-for-rbac --name eshoponweb-webapp49976510 --role contributor --scopes /subscriptions/SUBSCRIPTION-ID/resourceGroups/RESOURCE-GROUP --sdk-authc
 
 
 jobs:
