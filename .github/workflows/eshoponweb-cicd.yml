@@ -11,7 +11,6 @@ env:
   SUBSCRIPTION-ID: 5c315440-bdb2-4ecb-b7ac-468d487fbe22
   WEBAPP-NAME: eshoponweb-webapp49976510
 
-
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
@@ -71,7 +70,7 @@ jobs:
         name: bicep-template
         path: bicep-template
         
-   #Login in your azure subscription using a service principal (credentials stored as GitHub Secret in repo)
+    #Login in your azure subscription using a service principal (credentials stored as GitHub Secret in repo)
     - name: Azure Login
       uses: azure/login@v2
       with:
